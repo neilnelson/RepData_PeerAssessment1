@@ -48,7 +48,7 @@ plot(avg_by_interval$interval,avg_by_interval$steps,type="l",col="red", xlab="5 
 abline(v=avg_by_interval[which.max(avg_by_interval$steps),]$interval,col=3,lty=3)
 ```
 
-5 minute interval averaged over all day containing the largest number of steps
+5 minute interval averaged over all days containing the largest number of steps
 ```{r}
 avg_by_interval[which.max(avg_by_interval$steps),]$interval
 ```
