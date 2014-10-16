@@ -81,7 +81,7 @@ abline(v=avg_by_interval[which.max(avg_by_interval$steps),]$interval,col=3,lty=3
 
 ![plot of chunk unnamed-chunk-6](./PA1_files/figure-html/unnamed-chunk-6.png) 
 
-5 minute interval averaged over all day containing the largest number of steps
+5 minute interval averaged over all days containing the largest number of steps
 
 ```r
 avg_by_interval[which.max(avg_by_interval$steps),]$interval
